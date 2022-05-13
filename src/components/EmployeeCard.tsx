@@ -75,17 +75,10 @@ export default function EmployeeCard({
         title={firstName + lastName}
         subheader={phoneNumber}
       />
-      <CardMedia
-        component="img"
-        height="194"
-        // image="https://randomuser.me/api/portraits/women/14.jpg"
-        image={userAvatar}
-        alt="female"
-      />
+      <CardMedia component="img" height="194" image={userAvatar} alt="female" />
       <CardContent>
         <Typography variant="body2" color="text.secondary">
           <IconButton aria-label="share">
-            {gender}
             {gender === "female" ? <FemaleIcon /> : <MaleIcon />}
           </IconButton>
         </Typography>
