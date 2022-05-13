@@ -8,6 +8,10 @@ import Tile from "./components/Tile";
 import Add from "./components/Add";
 import Login from "./components/Login";
 
+/*
+Bigging of the App
+*/
+
 function App() {
   return (
     <div className="App">
